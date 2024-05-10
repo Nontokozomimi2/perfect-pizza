@@ -1,0 +1,66 @@
+body {
+     background-color: #ff0054;
+     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+
+.pizza {
+    /* box-model */
+    border: 1px solid #004b23;
+    padding: 1em;
+    margin: 1em;
+    /* margin-left: 0em; */
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+
+    
+
+
+    /* 
+    display: inline-block;
+    min-height: 30em;
+    */
+}
+
+.small_pizza {
+   background-color: #ffbd00; 
+   
+
+}
+
+.medium_pizza {
+   background-color: #0fa3b1;
+
+}
+
+
+.large_pizza {
+   background-color: #70e000;
+   
+
+}
+
+
+.contact_details {
+   background-color: #ffb3c6;
+}
+
+@media (min-width: 760px) {
+/* apply this css if the page is wider than 760px */
+   body {
+   background-color: #c08f27;   
+   }
+
+}
+
+
+@media (min-width: 960px) {
+/* apply this css if the page is wider than 960px */
+   
+
+
+   .pizzas {
+      display: flex ;
+   }
+}
